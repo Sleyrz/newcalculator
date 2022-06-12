@@ -1,0 +1,48 @@
+div .conteiner{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+div .input{
+    width: 27rem;
+    height: 5rem;
+    background-color: transparent;
+    border: 0.3rem solid #4561A1;
+    color: #6d98ff;
+    font-size:30px;
+    text-align: right;
+    filter: drop-shadow(0 0 15px #4561A1) drop-shadow(0 0 50px #4561A1) contrast(2) brightness(2);
+}
+div .row_center{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    color: #6d98ff;
+    width: 5rem;
+    background-color: transparent;
+    border: 0.2rem solid #4561A1;
+    border-radius: 0.5rem;
+    padding: 0.8rem 0.5rem;
+    margin: 0.5rem;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing:5px;
+    cursor: pointer;
+    font-weight: bold;
+    filter: drop-shadow(0 0 15px #4561A1) drop-shadow(0 0 50px #4561A1) contrast(2) brightness(2);
+    transition: .5s;
+}
+button:hover {
+    color: black;
+    background-color: #4561A1;
+    filter: drop-shadow(0 0 20px #4561A1) contrast(2) brightness(2);
+}
+.clear_backspace{
+    display: flex;
+    flex-direction: row;
+}
+.clear_backspace button{
+    width: 100%;
+}
